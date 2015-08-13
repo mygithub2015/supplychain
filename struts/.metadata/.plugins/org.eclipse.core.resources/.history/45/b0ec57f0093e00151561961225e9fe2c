@@ -1,0 +1,42 @@
+package com.struts2.beans;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+
+
+public class User extends ActionSupport implements ModelDriven<User> {
+	private String uname;
+	private String pwd;
+	User user = new User();
+	public String getUname() {
+		return uname;
+	}
+	public void setUname(String uname) {
+		this.uname = uname;
+	}
+	public String getPwd() {
+		return pwd;
+	}
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
+	@Override
+	public void validate(){
+		 if(uname == null || uname.equals("")){
+			 addFieldError("uname", "username is required!!!");
+		 }
+		 if(pwd == null || pwd.equals("")){
+			 addFieldError("pwd", "password is required!!!");
+		 }
+	}
+	@Override
+	public User getModel() {
+		// TODO Auto-generated method stub
+		return user;
+	}
+	public String execute(){
+		return "success";
+	}
+	
+
+}
