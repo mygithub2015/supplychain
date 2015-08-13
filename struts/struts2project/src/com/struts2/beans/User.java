@@ -45,11 +45,17 @@ public class User extends ActionSupport{
 	public String execute(){
 		if(getUname().equals("user") && getPwd().equals("pwd")){
 			System.out.println("valid user");
+			System.out.println("List of Addresses...");
+			for(Address addr : getAddrList()){
+				System.out.println("StreetName: "+addr.getStreetName()+", city: "+addr.getCity()+", state: " +
+						""+addr.getState()+"-"+addr.getPin());
+			}
 			return "success";
 		}
 		System.out.println("invalid user");
 		return "failure";
 	}
+
 	
 
 }

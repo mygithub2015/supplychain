@@ -11,7 +11,7 @@
 </script>
 <script type="text/javascript">
 //var tableObj = $("#addressesTable");
-
+//adding a row on add button click
 	var addRow = function(){
 		var tableObj = document.getElementById("addressesTable");
 		//alert(tableObj);
