@@ -1,0 +1,54 @@
+package com.invoicematching.service;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.orm.hibernate3.HibernateTemplate;
+
+import com.invoicematching.beans.Invoice;
+import com.invoicematching.beans.InvoiceDetail;
+import com.invoicematching.dao.DaoImpl;
+import com.invoicematching.dao.InvoiceDao;
+
+public class Service {
+	public static void main(String[] args) {
+		Invoice invoice1 = new Invoice();
+		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+		HibernateTemplate template = context.getBean("template",org.springframework.orm.hibernate3.HibernateTemplate.class);
+		InvoiceDao dao = new InvoiceDao();
+		dao.setTemplate(template);
+		InvoiceDetail invoiceDtl1 = new InvoiceDetail();
+		invoiceDtl1.setInvoice(invoice1);
+		invoiceDtl1.setItemNo(1);
+		invoiceDtl1.setItemDesc("Book");
+		invoiceDtl1.setQty(1);
+		invoiceDtl1.setRate(500.00);
+		invoiceDtl1.setTotalPrice(invoiceDtl1.getQty()*invoiceDtl1.getRate());
+		InvoiceDetail invoiceDtl2 = new InvoiceDetail();
+		invoiceDtl2.setInvoice(invoice1);
+		invoiceDtl2.setItemNo(2);
+		invoiceDtl2.setItemDesc("mobile");
+		invoiceDtl2.setQty(1);
+		invoiceDtl2.setRate(2000.00);
+		invoiceDtl2.setTotalPrice(invoiceDtl2.getQty()*invoiceDtl2.getRate());
+		Set<InvoiceDetail> invoiceDtlSet = new HashSet<InvoiceDetail>();
+		invoiceDtlSet.add(invoiceDtl1);
+		invoiceDtlSet.add(invoiceDtl2);
+		invoice1.setInvoiceId("INV001");
+		invoice1.setInvoiceDetail(invoiceDtlSet);
+		double totalAmt = 0.0;
+		for(InvoiceDetail id : invoiceDtlSet){
+			totalAmt += id.getTotalPrice();
+		}
+		invoice1.setTotalAmt(totalAmt);
+//		DaoImpl dao = new DaoImpl();
+		dao.save(invoice1);
+		dao.save(invoiceDtl1);
+		dao.save(invoiceDtl2);
+//		System.out.println(invoice1);
+		
+		
+	}
+}

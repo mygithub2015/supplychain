@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="/struts-tags" prefix="s"%>
+
+<!DOCTYPE >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Invoice Details</title>
+</head>
+<body>
+	<%-- 
+<s:form action="saveUser"> 
+<fieldset>
+<legend>User Details</legend> 
+<s:textfield name="userId" label="User ID"></s:textfield>  
+<s:textfield name="uname" label="User Name"></s:textfield>  
+<s:submit value="save"></s:submit>  
+</fieldset>
+
+</s:form>  --%>
+	<s:form action="Invoice">
+		<s:textfield name="invoiceName" label="Invoice Name"></s:textfield>
+		<s:textfield name="totalAmt" label="Total Price">
+		</s:textfield>
+		<table>
+		<caption>Enter the Invoice Details</caption>
+		<tr>
+		<td>
+			<input name="invoiceDetail[0].itemDesc" placeholder="Item Description"/>
+		</td>
+		<td>
+			<input name="invoiceDetail[0].qty" placeholder="Item Quantity"/>
+		</td>
+		<td>
+			<input name="invoiceDetail[0].rate" placeholder="Rate"/>
+		</td>
+		
+		</tr>
+		</table>
+		<input type="button" value="Add Item" onClick="addItem()"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</s:form>
+		
+</body>
+</html>
