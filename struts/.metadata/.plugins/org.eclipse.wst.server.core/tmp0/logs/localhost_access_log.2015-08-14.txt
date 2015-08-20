@@ -1,0 +1,4 @@
+127.0.0.1 - - [14/Aug/2015:00:02:41 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [14/Aug/2015:00:02:48 +0530] "GET /struts2project/index.jsp HTTP/1.1" 200 3563
+0:0:0:0:0:0:0:1 - - [14/Aug/2015:00:02:49 +0530] "GET /struts2project/jquery-1.11.3.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Aug/2015:00:03:38 +0530] "POST /struts2project/userLogin HTTP/1.1" 200 990

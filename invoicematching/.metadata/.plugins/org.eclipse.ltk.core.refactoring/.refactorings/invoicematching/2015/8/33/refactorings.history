@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;invoicematching/src/struts2.xml&apos; to &apos;struts.xml&apos;" description="Rename resource &apos;struts2.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/struts2.xml" name="struts.xml" stamp="1439128159716" updateReferences="true"/>
+</session>

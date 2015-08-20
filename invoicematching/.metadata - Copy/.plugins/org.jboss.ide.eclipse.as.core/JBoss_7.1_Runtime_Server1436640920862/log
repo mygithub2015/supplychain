@@ -1,0 +1,572 @@
+!SESSION 2015-07-13 22:20:24.854 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-13 23:48:02.205
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-13 23:48:09.624
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-13 23:48:30.422
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-13 23:48:32.298
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-13 23:48:53.014
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-13 23:50:52.998
+!MESSAGE 1 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-13 23:57:03.229
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-13 23:57:03.282
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-13 23:57:03.318
+!MESSAGE Server processes have been terminated.
+!SESSION 2015-07-31 18:23:20.000 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 19:43:14.762
+!MESSAGE 16 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 19:43:22.430
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 19:43:45.643
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 19:43:46.405
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 19:44:05.870
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-07-31 19:44:50.123
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 19:44:50.582
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 19:44:50.585
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 19:44:50.586
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 19:45:21.998
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 19:45:34.916
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 19:45:35.403
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 19:45:56.181
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-07-31 19:51:10.188
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 19:51:10.524
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 19:51:10.525
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 19:51:10.526
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 19:51:28.057
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 19:51:41.830
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 19:51:42.481
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 19:52:03.223
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-07-31 19:55:18.277
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 19:55:19.392
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 19:55:19.395
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 19:55:19.396
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 19:55:33.763
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 19:55:39.820
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 19:55:40.532
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 19:56:00.819
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 19:56:29.548
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 19:56:49.924
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+!SESSION 2015-07-31 19:57:35.192 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 19:58:30.554
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 19:58:37.117
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 19:58:44.000
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 19:58:44.328
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 19:59:05.222
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:07:43.241
+!MESSAGE 13 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:07:51.564
+!MESSAGE 13 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:09:27.715
+!MESSAGE 13 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:09:49.113
+!MESSAGE 1 files modified in module invoicematching
+!SESSION 2015-07-31 20:09:52.739 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:21:10.994
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 20:21:16.809
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 20:21:28.916
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 20:21:29.565
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 20:21:49.749
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+!SESSION 2015-07-31 20:23:01.953 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:24:08.457
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 20:24:14.595
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 20:24:22.783
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 20:24:23.445
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 20:24:44.215
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:25:39.320
+!MESSAGE 1 files modified in module invoicematching
+!SESSION 2015-07-31 20:25:58.115 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:26:28.847
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 20:26:35.352
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 20:26:48.228
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 20:26:49.231
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 20:27:10.411
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 20:36:20.619
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 20:36:20.619
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 20:36:20.619
+!MESSAGE Server processes have been terminated.
+!SESSION 2015-07-31 20:41:09.659 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:47:57.406
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 20:48:05.363
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 20:48:17.959
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 20:48:18.496
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 20:48:38.800
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-07-31 20:52:48.645
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 20:52:49.337
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 20:52:49.339
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 20:52:49.341
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 20:53:04.052
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 20:53:11.755
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 20:53:12.348
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 20:53:33.936
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 20:59:16.332
+!MESSAGE 30 files modified in module invoicematching
+!SESSION 2015-07-31 20:59:49.482 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:00:34.666
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 21:00:40.908
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 21:00:49.226
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 21:00:50.027
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:02:00.145
+!MESSAGE 30 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:03:27.749
+!MESSAGE 13 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-07-31 21:10:37.436
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 21:10:38.432
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 21:10:38.434
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 21:10:38.436
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 21:11:00.026
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 21:11:06.835
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 21:11:07.231
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 21:11:28.183
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:15:40.587
+!MESSAGE 13 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:17:53.569
+!MESSAGE 13 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 21:19:16.723
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+!SESSION 2015-07-31 21:19:29.134 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:21:11.708
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 21:21:17.865
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 21:21:26.460
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 21:21:27.398
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 21:21:47.689
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:25:22.664
+!MESSAGE 1 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:26:36.991
+!MESSAGE 1 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 21:26:45.948
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+!SESSION 2015-07-31 21:27:08.377 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:28:28.509
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 21:28:34.678
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 21:28:41.909
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 21:28:42.569
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 21:29:02.580
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+!SESSION 2015-07-31 21:30:36.864 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 21:32:51.111
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:32:52.867
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 21:32:58.051
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 21:32:58.641
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 21:33:18.689
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 21:35:07.321
+!MESSAGE 80 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 21:35:53.127
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 21:35:53.130
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 21:35:53.131
+!MESSAGE Server processes have been terminated.
+!SESSION 2015-07-31 22:41:55.320 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 23:18:05.419
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 23:18:12.475
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 23:18:27.617
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 23:18:28.356
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 23:18:48.514
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 23:21:41.935
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 23:22:01.813
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-07-31 23:23:17.026
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 23:23:17.903
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 23:23:17.903
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 23:23:17.903
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-07-31 23:23:36.857
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-07-31 23:23:44.689
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-07-31 23:23:45.314
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-07-31 23:24:06.066
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 23:32:55.586
+!MESSAGE 13 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-07-31 23:40:25.609
+!MESSAGE 1 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-07-31 23:40:56.526
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 23:40:57.178
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 23:40:57.224
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-07-31 23:40:57.254
+!MESSAGE Server processes have been terminated.
+!SESSION 2015-08-11 22:35:42.104 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-08-12 00:12:43.497
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-08-12 00:12:52.234
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-08-12 00:13:13.258
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-08-12 00:13:14.148
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-08-12 00:13:33.508
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-08-12 00:54:37.898
+!MESSAGE 1 files modified in module invoicematching
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-08-12 00:56:09.964
+!MESSAGE 1 files modified in module invoicematching
+!SESSION 2015-08-14 22:09:37.618 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-08-14 23:35:14.969
+!MESSAGE Module invoicematching published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-08-14 23:35:23.213
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-08-14 23:35:50.961
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2015-08-14 23:35:52.559
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2015-08-14 23:36:13.736
+!MESSAGE Module invoicematching on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-08-14 23:36:46.173
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-08-14 23:36:47.003
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-08-14 23:36:47.018
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-08-14 23:36:47.018
+!MESSAGE Server processes have been terminated.
