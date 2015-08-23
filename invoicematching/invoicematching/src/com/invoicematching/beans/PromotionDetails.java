@@ -1,20 +1,27 @@
 package com.invoicematching.beans;
 
 public class PromotionDetails {
-	private int promotionId;
+	
+	private int id;
 	private int locnId;
 	private String locnAddr;
 	private String city;
 	private String state;
 	private long price;
 	public int getPromotionId() {
-		return promotionId;
+		return id;
 	}
-	public void setPromotionId(int promotionId) {
-		this.promotionId = promotionId;
+	public void setPromotionId(int id) {
+		this.id = id;
 	}
 	public int getLocnId() {
 		return locnId;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 	public void setLocnId(int locnId) {
 		this.locnId = locnId;
@@ -45,7 +52,7 @@ public class PromotionDetails {
 	}
 	@Override
 	public String toString() {
-		return "PromotionDetails [promotionId=" + promotionId + ", locnId="
+		return "PromotionDetails [id=" + id + ", locnId="
 				+ locnId + ", locnAddr=" + locnAddr + ", city=" + city
 				+ ", state=" + state + ", price=" + price + "]";
 	}

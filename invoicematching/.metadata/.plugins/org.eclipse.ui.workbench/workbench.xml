@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="51" version="2.0">
+<workbench progressCount="64" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="175" y="0">
 <fastViewData fastViewLocation="1024">
@@ -27,6 +27,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.pagedesigner.PageDesignerEditor" itemType="typePlaceholder" x="276" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -63,8 +64,6 @@
 <part id="17"/>
 <part id="18"/>
 <part id="19"/>
-<part id="20"/>
-<part id="21"/>
 </presentation>
 </folder>
 </info>
@@ -77,9 +76,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/src/com/invoicematching/dao/DaoImpl.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="425" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Service.java" partName="Service.java" path="F:/java practice/invoicematching/invoicematching/src/com/invoicematching/service/Service.java" title="Service.java" tooltip="invoicematching/src/com/invoicematching/service/Service.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Service.java" partName="Service.java" path="F:/java practice/invoicematching/invoicematching/src/com/invoicematching/service/Service.java" title="Service.java" tooltip="invoicematching/src/com/invoicematching/service/Service.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/src/com/invoicematching/service/Service.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="52" selectionOffset="1818" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="994" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="Log4j.xml" partName="Log4j.xml" path="F:/java practice/invoicematching/invoicematching/src/Log4j.xml" title="Log4j.xml" tooltip="invoicematching/src/Log4j.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/src/Log4j.xml"/>
@@ -113,25 +112,31 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/WebContent/welcome.jsp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="433" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Promotion.java" partName="Promotion.java" path="F:/java practice/invoicematching/invoicematching/src/com/invoicematching/beans/Promotion.java" title="Promotion.java" tooltip="invoicematching/src/com/invoicematching/beans/Promotion.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Promotion.java" partName="Promotion.java" path="F:/java practice/invoicematching/invoicematching/src/com/invoicematching/beans/Promotion.java" title="Promotion.java" tooltip="invoicematching/src/com/invoicematching/beans/Promotion.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/src/com/invoicematching/beans/Promotion.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1370" selectionTopPixel="533"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="231" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PromotionDetails.java" partName="PromotionDetails.java" path="F:/java practice/invoicematching/invoicematching/src/com/invoicematching/beans/PromotionDetails.java" title="PromotionDetails.java" tooltip="invoicematching/src/com/invoicematching/beans/PromotionDetails.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/src/com/invoicematching/beans/PromotionDetails.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="948" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="34" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jst.jsp.core.jspsource.source" name="configure.jsp" partName="configure.jsp" path="F:/java practice/invoicematching/invoicematching/WebContent/configure.jsp" title="configure.jsp" tooltip="invoicematching/WebContent/configure.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/WebContent/configure.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2163" selectionTopPixel="735"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="512" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PromotionDao.java" partName="PromotionDao.java" path="F:/java practice/invoicematching/invoicematching/src/com/invoicematching/dao/PromotionDao.java" title="PromotionDao.java" tooltip="invoicematching/src/com/invoicematching/dao/PromotionDao.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/src/com/invoicematching/dao/PromotionDao.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="113" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Invoice.java" partName="Invoice.java" path="F:/java practice/invoicematching/invoicematching/src/com/invoicematching/beans/Invoice.java" title="Invoice.java" tooltip="invoicematching/src/com/invoicematching/beans/Invoice.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/src/com/invoicematching/beans/Invoice.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="MyProperty.properties" partName="MyProperty.properties" path="F:/java practice/invoicematching/invoicematching/WebContent/WEB-INF/classes/MyProperty.properties" title="MyProperty.properties" tooltip="invoicematching/WebContent/WEB-INF/classes/MyProperty.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/WebContent/WEB-INF/classes/MyProperty.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="303" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="hibernate.cfg.xml" partName="hibernate.cfg.xml" path="F:/java practice/invoicematching/invoicematching/src/hibernate.cfg.xml" title="hibernate.cfg.xml" tooltip="invoicematching/src/hibernate.cfg.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/src/hibernate.cfg.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="promotion.hbm.xml" partName="promotion.hbm.xml" path="F:/java practice/invoicematching/invoicematching/src/promotion.hbm.xml" title="promotion.hbm.xml" tooltip="invoicematching/src/promotion.hbm.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/invoicematching/src/promotion.hbm.xml"/>
 </editor>
 </editors>
 <views>
@@ -201,7 +206,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -481,7 +486,7 @@
 </fastViewBar>
 <fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@5d573bc1" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
 <fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.2776886"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.2760181"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -495,7 +500,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@6dadc36f" ratio="0.18599397" ratioLeft="247" ratioRight="1081" relationship="2" relative="org.eclipse.ui.internal.ViewStack@4e5f8740">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6dadc36f" ratio="0.29066265" ratioLeft="386" ratioRight="942" relationship="2" relative="org.eclipse.ui.internal.ViewStack@4e5f8740">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.egit.ui.RepositoriesView" label="LabelNotFound"/>
@@ -545,7 +550,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@5d573bc1" ratio="0.49919742" ratioLeft="311" ratioRight="312" relationship="4" relative="org.eclipse.ui.internal.ViewStack@6dadc36f">
-<folder appearance="2" expanded="2">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
@@ -557,153 +562,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/invoicematching/src/spring.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/invoicematching/WebContent/configure.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/invoicematching/src/com/invoicematching/beans/Promotion.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/invoicematching/src/com/invoicematching/beans/Invoice.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/invoicematching/src/com/invoicematching/beans/PromotionDetails.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/invoicematching/WebContent/index.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/invoicematching/src/struts.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/invoicematching/src/promotion.hbm.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/invoicematching/src/NewFile.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/invoicematching/src/promotion.hbm.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/invoicematching/WebContent/configure.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/invoicematching/src/struts.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/invoicematching/WebContent/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/invoicematching/src/com/invoicematching/beans/PromotionDetails.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/invoicematching/src/com/invoicematching/service/Service.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/invoicematching/src/Log4j.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/invoicematching/src/com/invoicematching/beans/Promotion.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/invoicematching/src/com/invoicematching/beans/Invoice.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/invoicematching/WebContent/WEB-INF/web.xml"/>
 </editors>
-<item historyLabel="index.jsp" index="4">
-<position info="not_deleted" x="314" y="935"/>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="528" y="0"/>
 </item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="2800" y="0"/>
+<item historyLabel="spring.xml" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.jsp" index="4">
+<item historyLabel="struts.xml" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="spring.xml" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="promotion.hbm.xml" index="3">
+<position info="not_deleted" x="1038" y="0"/>
+</item>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="528" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="345" y="0"/>
+</item>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="528" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="345" y="0"/>
+</item>
+<item historyLabel="promotion.hbm.xml" index="3">
+<position info="not_deleted" x="684" y="0"/>
+</item>
+<item historyLabel="spring.xml" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="985" y="0"/>
+</item>
+<item historyLabel="Log4j.xml" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="371" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="345" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="72" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="72" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="72" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="371" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="985" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="297" y="0"/>
+</item>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="142" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="297" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="985" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="297" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="promotion.hbm.xml" index="3">
+<position info="not_deleted" x="684" y="0"/>
+</item>
+<item historyLabel="Promotion.java" index="7">
+<position info="not_deleted" x="231" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="985" y="0"/>
+</item>
+<item historyLabel="Promotion.java" index="7">
+<position info="not_deleted" x="231" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="985" y="0"/>
+</item>
+<item historyLabel="Promotion.java" index="7">
+<position info="not_deleted" x="231" y="0"/>
+</item>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="434" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="985" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="994" y="0"/>
+</item>
+<item historyLabel="Log4j.xml" index="6">
+<position info="not_deleted" x="460" y="0"/>
+</item>
+<item historyLabel="promotion.hbm.xml" index="3">
+<position info="not_deleted" x="584" y="0"/>
+</item>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="434" y="0"/>
+</item>
+<item historyLabel="Invoice.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="PromotionDetails.java" index="4">
+<position info="not_deleted" x="34" y="0"/>
+</item>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="web.xml" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Service.java" index="5">
+<position info="not_deleted" x="994" y="0"/>
+</item>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="Log4j.xml" index="6">
+<position info="not_deleted" x="460" y="0"/>
+</item>
+<item historyLabel="web.xml" index="9">
 <position/>
 </item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="2699" y="25"/>
+<item historyLabel="configure.jsp" index="1">
+<position info="not_deleted" x="512" y="0"/>
 </item>
-<item historyLabel="PromotionDetails.java" index="3">
-<position info="not_deleted" x="948" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="2797" y="0"/>
-</item>
-<item historyLabel="PromotionDetails.java" index="3">
-<position info="not_deleted" x="948" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="2797" y="0"/>
-</item>
-<item historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="1354" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="2797" y="0"/>
-</item>
-<item historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="2108" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="2797" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="1957" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="4">
-<position/>
-</item>
-<item historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="1180" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="1957" y="0"/>
-</item>
-<item historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="284" y="0"/>
-</item>
-<item historyLabel="Invoice.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="struts.xml" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="1956" y="9"/>
-</item>
-<item historyLabel="struts.xml" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="0">
-<position info="not_deleted" x="1956" y="9"/>
-</item>
-<item historyLabel="promotion.hbm.xml" index="6">
-<position info="not_deleted" x="3" y="38"/>
-</item>
-<item historyLabel="NewFile.xml" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="promotion.hbm.xml" index="6">
-<position info="not_deleted" x="46" y="1005"/>
-</item>
-<item historyLabel="NewFile.xml" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="promotion.hbm.xml" index="8">
-<position info="not_deleted" x="554" y="0"/>
-</item>
-<item historyLabel="promotion.hbm.xml" index="8">
-<position info="not_deleted" x="219" y="69"/>
-</item>
-<item historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="284" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="9">
-<position info="not_deleted" x="1956" y="9"/>
-</item>
-<item historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="184" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="9">
-<position info="not_deleted" x="2461" y="0"/>
-</item>
-<item historyLabel="struts.xml" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="9">
-<position info="not_deleted" x="2461" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="11">
-<position/>
-</item>
-<item historyLabel="configure.jsp" index="9">
-<position info="not_deleted" x="2461" y="0"/>
-</item>
-<item historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="1983" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="9">
-<position info="not_deleted" x="2556" y="0"/>
-</item>
-<item historyLabel="struts.xml" index="10">
-<position info="not_deleted" x="750" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="9">
-<position info="not_deleted" x="2556" y="0"/>
-</item>
-<item historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="374" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="9">
-<position info="not_deleted" x="2163" y="0"/>
-</item>
-<item historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="813" y="0"/>
-</item>
-<item historyLabel="configure.jsp" index="9">
-<position info="not_deleted" x="2163" y="0"/>
-</item>
-<item active="true" historyLabel="Promotion.java" index="1">
-<position info="not_deleted" x="813" y="0"/>
+<item active="true" historyLabel="Service.java" index="5">
+<position info="not_deleted" x="994" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -727,17 +742,32 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="NewFile.xml" tooltip="invoicematching/src/NewFile.xml">
-<persistable path="/invoicematching/src/NewFile.xml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Invoice.java" tooltip="invoicematching/src/com/invoicematching/beans/Invoice.java">
 <persistable path="/invoicematching/src/com/invoicematching/beans/Invoice.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PromotionDao.java" tooltip="invoicematching/src/com/invoicematching/dao/PromotionDao.java">
-<persistable path="/invoicematching/src/com/invoicematching/dao/PromotionDao.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="LocalSessionFactoryBean.class" tooltip="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=invoicematching/E:\/Application Files\/Spring-jars\/Spring 3.0\/Jars\/org.springframework.orm-3.0.5.RELEASE.jar&lt;org.springframework.orm.hibernate3(LocalSessionFactoryBean.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="hibernate.cfg.xml" tooltip="invoicematching/src/com/invoicematching/service/hibernate.cfg.xml">
-<persistable path="/invoicematching/src/com/invoicematching/service/hibernate.cfg.xml"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Level.class" tooltip="org.apache.log4j.Level">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=invoicematching/C:\/Users\/SITARAM\/Desktop\/Arun Loptop\/Documents\/projects\/hibnate1\/lib\/hibernate jars\/log4j-1.2.11.jar&lt;org.apache.log4j(Level.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="promotion.hbm.xml" tooltip="invoicematching/src/promotion.hbm.xml">
+<persistable path="/invoicematching/src/promotion.hbm.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="hibernate.cfg.xml" tooltip="invoicematching/src/hibernate.cfg.xml">
+<persistable path="/invoicematching/src/hibernate.cfg.xml"/>
+</file>
+<file factoryID="org.eclipse.wst.server.ui.editor.input.factory" id="org.eclipse.wst.server.ui.editor" name="Tomcat v7.0 Server at localhost" tooltip="Tomcat v7.0 Server at localhost">
+<persistable server-id="Tomcat v7.0 Server at localhost"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="MyProperty.properties" tooltip="invoicematching/WebContent/WEB-INF/classes/MyProperty.properties">
+<persistable path="/invoicematching/WebContent/WEB-INF/classes/MyProperty.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="struts.properties" tooltip="invoicematching/WebContent/WEB-INF/classes/struts.properties">
+<persistable path="/invoicematching/WebContent/WEB-INF/classes/struts.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" tooltip="invoicematching/src/com/invoicematching/beans/User.java">
+<persistable path="/invoicematching/src/com/invoicematching/beans/User.java"/>
 </file>
 </mruList>
 </workbench>

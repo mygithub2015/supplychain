@@ -25,8 +25,9 @@
 		<property name="username" value="system"></property>
 		<property name="password" value="tiger"></property>
 	</bean>
-	<bean id="mysessionFactory"
-		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+	<!-- <bean id="mysessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean"> -->
+		   <bean id="mysessionFactory"  class="org.springframework.orm.hibernate3.LocalSessionFactoryBean"> 
 		<property name="dataSource" ref="dataSource"></property>
 		<!-- <property name="annotatedClasses"> <list> <value>com.invoicematching.beans.Invoice</value> 
 			<value>com.invoicematching.beans.InvoiceDetail</value> </list> </property> -->
@@ -39,16 +40,16 @@
 
 			</props>
 		</property>
-		<property name="annotatedClasses">
+		<!-- <property name="annotatedClasses">
 			<list>
 				<value>com.invoicematching.beans.InvoiceDetail</value>
 				<value>com.invoicematching.beans.Invoice</value>
 
 			</list>
-		</property>
+		</property> -->
 		<property name="mappingResources">
 			<list>
-				<value>./promotion.hbm.xml</value>
+				<value>promotion.hbm.xml</value>
 			</list>
 		</property>
 	</bean>
@@ -60,5 +61,8 @@
 	<!-- <bean id="invoiceDtl" class="com.invoicematching.beans.InvoiceDetail" 
 		/> <bean id="invoice" class="com.invoicematching.beans.Invoice" /> <bean 
 		id="user" class="com.invoicematching.beans.User" /> -->
+		 <bean id="promotionDao" class="com.invoicematching.dao.PromotionDao">  
+    <property name="template" ref="template"></property>  
+    </bean>  
 
 </beans>

@@ -16,6 +16,26 @@ public class Promotion extends ActionSupport{
 	private String promotionStartDt;
 	private String promotionEndDt;
 	private List<PromotionDetails> promotionDetails;
+	@Override
+	public void validate(){
+		//System.out.println("validate method");
+		//	System.out.println(promotionName.length());
+		if(promotionName == null || promotionName.length() == 0){
+			addFieldError("promotionName",getText("promotionName.required"));
+		}
+		if(itemName == null || itemName.length() == 0){
+			addFieldError("itemName",getText("itemName.required"));
+		}
+		if(promotionStartDt == null){
+			addFieldError("promotionStartDt",getText("promotionStartDt.required"));
+
+		}
+		if(promotionEndDt == null){
+			addFieldError("promotionEndDt",getText("promotionEndDt.required"));
+
+		}
+	}
+	
 	public int getPromotionId() {
 		return promotionId;
 	}
@@ -65,9 +85,9 @@ public class Promotion extends ActionSupport{
 		System.out.println("Promotion Start Date: "+this.getPromotionStartDt());
 		System.out.println("Promotion End Date:"+this.getPromotionEndDt());
 		System.out.println("Promotion Location Details: "+getPromotionDetails());
-		//new Service().service(this);
+		new Service().service(this);
 		return "success";	
 	}
-	
+
 
 }

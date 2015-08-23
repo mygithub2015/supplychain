@@ -1,11 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="/struts-tags" prefix="s"%>
+<%@ taglib prefix="sx" uri="/struts-dojo-tags"%>
+<%@ taglib prefix="sj" uri="/struts-jquery-tags"%>
 <!DOCTYPE>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Promotions(configuration)</title>
+<style type="text/css">
+span.errorMessage {
+	color: red;
+}
+</style>
 <script type="text/javascript">
 function fun1(){
 	alert("fun");
@@ -61,6 +68,10 @@ function addRow(){
 				<s:textfield name="itemName" label="Item Name"></s:textfield>
 				<s:textfield name="promotionStartDt" label="Promotion Start Date"></s:textfield>
 				<s:textfield name="promotionEndDt" label="Promotion End Date"></s:textfield>
+				<%-- <sj:datepicker name="promotionStartDt" label="Promotion Start Date"
+					displayFormat="dd-MMM-yyyy" value="%{'today'}" showAnim="slideDown" duration="fast" />
+					<sj:datepicker name="promotionEndDt" label="Promotion End Date"
+					displayFormat="dd-MMM-yyyy" value="%{'today'}"  showAnim="slideDown" duration="fast"/> --%>
 				<table style="border: 1px solid black" id="promo_loc_table">
 					<caption>Details Of Locations</caption>
 					<tr>
@@ -78,8 +89,7 @@ function addRow(){
 				</table>
 				<table>
 					<tr>
-						<td><input type="button"  onClick="addRow()"
-							value="Add Row"></td>
+						<td><input type="button" onClick="addRow()" value="Add Row"></td>
 						<td><input type="button" id="deleteRow" disabled=disabled
 							value="Delete Row"></td>
 						<td colspan="3"><s:submit value="submit"></s:submit></td>

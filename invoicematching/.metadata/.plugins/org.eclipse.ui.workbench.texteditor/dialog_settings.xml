@@ -13,18 +13,19 @@
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wholeword"/>
-		<item value="String" key="selection"/>
+		<item value="" key="selection"/>
 		<list key="findhistory">
+			<item value="records are going to be inserted`"/>
+			<item value="records are going to be inserted"/>
+			<item value="service"/>
+			<item value="records are going to"/>
+			<item value="dao"/>
+			<item value="promotionId"/>
 			<item value="Date"/>
 			<item value="invoiceDetail"/>
-			<item value="state"/>
-			<item value="city"/>
-			<item value="streetName"/>
-			<item value="addrList"/>
-			<item value="Set"/>
-			<item value="Starting method execution"/>
 		</list>
 		<list key="replacehistory">
+			<item value="id"/>
 			<item value="String"/>
 			<item value="promotionDetails"/>
 			<item value="rate"/>
@@ -32,7 +33,6 @@
 			<item value="itemDesc"/>
 			<item value="invoiceDetail"/>
 			<item value="invoiceDetails"/>
-			<item value="List"/>
 		</list>
 	</section>
 </section>
