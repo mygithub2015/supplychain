@@ -1,0 +1,1 @@
+<center><p><h4>Copyright &copy; 2015 Ecare Technologies Pvt. Ltd.</h4></p> </center>

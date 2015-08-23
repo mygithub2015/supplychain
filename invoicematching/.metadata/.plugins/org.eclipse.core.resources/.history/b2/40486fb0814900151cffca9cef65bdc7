@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.invoicematching.beans.Promotion" table="Promotion">
+		<id name="promotionId" column="promotion_id">
+			<generator class="sequence">
+				<param name="sequence">promotion_pk_seq</param>
+				</generator>
+		</id>
+		<property name="promotionName"></property>
+		<property name="itemId" type="int" column="item_id"></property>
+		<property name="itemName" type="string" column="item_name"></property>
+		<property name="promotionStartDt" type="string" column="promotion_start_dt"></property>
+		<property name="promotionEndDt" type="string" column="promotion_end_date"></property>
+		<list name="promotionDetails" cascade="all" lazy="false">  
+          <key column="promotionId"></key>  
+          <index column="type"></index>  
+		<one-to-many class="com.invoicematching.beans.PromotionDetails" ></one-to-many>  
+		</list>
+
+	</class>
+	<class name="com.invoicematching.beans.PromotionDetails" table="Promotion_Details">
+	
+	<id name="id" type="int" >
+	<generator class="native"/>
+	</id>
+	<property name="locnId" type="int" column="locn_id"/>
+	<property name="locnAddr" type="string" column="locn_addr" />
+	<property name="city" type="string" column="city"/>
+	<property name="state" type="string"/>
+	<property name="price" type="long"/>
+	</class>
+
+</hibernate-mapping>  
+
