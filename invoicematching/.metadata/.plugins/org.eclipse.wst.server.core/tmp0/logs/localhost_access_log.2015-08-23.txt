@@ -41,3 +41,7 @@
 0:0:0:0:0:0:0:1 - - [23/Aug/2015:16:40:25 +0530] "GET /invoicematching/WEB-INF/classes/Log4j.xml HTTP/1.1" 404 949
 0:0:0:0:0:0:0:1 - - [23/Aug/2015:16:41:01 +0530] "GET /invoicematching/configure.jsp HTTP/1.1" 200 3895
 0:0:0:0:0:0:0:1 - - [23/Aug/2015:16:42:03 +0530] "POST /invoicematching/promotion.action HTTP/1.1" 200 319
+127.0.0.1 - - [23/Aug/2015:20:26:36 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [23/Aug/2015:20:26:40 +0530] "GET /invoicematching/configure.jsp HTTP/1.1" 200 3939
+127.0.0.1 - - [23/Aug/2015:20:29:30 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [23/Aug/2015:20:29:32 +0530] "GET /invoicematching/configure.jsp HTTP/1.1" 200 3939

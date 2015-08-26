@@ -8,6 +8,9 @@ Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
 			<result name="success">welcome.jsp</result>
 			<result name="input">/configure.jsp</result>
 		</action>
-
+		<action name="FetchItemDetails" class="com.invoicematching.beans.FetchItemDetails">
+			<result name="success">welcome.jsp</result>
+			<result name="input">/Test.jsp</result>
+		</action>
 	</package>
 </struts>      

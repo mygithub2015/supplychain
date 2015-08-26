@@ -49,7 +49,8 @@
 		</property> -->
 		<property name="mappingResources">
 			<list>
-				<value>promotion.hbm.xml</value>
+<!-- 				<value>promotion.hbm.xml</value>
+ -->				<value>items.hbm.xml</value>
 			</list>
 		</property>
 	</bean>
@@ -61,7 +62,7 @@
 	<!-- <bean id="invoiceDtl" class="com.invoicematching.beans.InvoiceDetail" 
 		/> <bean id="invoice" class="com.invoicematching.beans.Invoice" /> <bean 
 		id="user" class="com.invoicematching.beans.User" /> -->
-		 <bean id="promotionDao" class="com.invoicematching.dao.PromotionDao">  
+		 <bean id="promotionDao" class="com.invoicematching.dao.PromotionDaoImpl">  
     <property name="template" ref="template"></property>  
     </bean>  
 

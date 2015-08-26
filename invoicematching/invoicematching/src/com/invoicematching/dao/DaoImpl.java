@@ -6,6 +6,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.AnnotationConfiguration;
 
+import com.invoicematching.beans.Items;
+
 public class DaoImpl implements Dao{
 	private SessionFactory sf;
 	 public void getSessionFactory(){
@@ -29,6 +31,11 @@ public class DaoImpl implements Dao{
 			trans.rollback();
 		}
 
+	}
+	@Override
+	public Items getItemsById(int id) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
