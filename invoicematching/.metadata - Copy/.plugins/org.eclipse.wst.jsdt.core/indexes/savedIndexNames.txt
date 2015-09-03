@@ -1,6 +1,0 @@
-INDEX VERSION 1.122+F:\java practice\invoicematching\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2131864291.index
-244479545.index
-2512826249.index
-397165959.index
-640184562.index

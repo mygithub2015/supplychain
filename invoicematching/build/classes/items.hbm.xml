@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.invoicematching.beans.Items" table="Items" lazy="false">
+		<id name = "itemId" type="int" column="item_id">
+			<generator class="sequence">
+				<param name="sequence">item_pk_seq</param>
+			</generator>
+		</id>
+		<property name="itemName" type="string" column="item_name"/>
+		<property name="itemClass" type="string" column="item_class" />
+		<property name="itemSubClass" type="string" column="item_subclass" />
+		<property name="qty" type="int" />
+		<property name="rate" type="double" />
+	</class>
+</hibernate-mapping>

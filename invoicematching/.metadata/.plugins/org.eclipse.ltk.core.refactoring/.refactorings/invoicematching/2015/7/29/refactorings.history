@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;invoicematching/src/log4j.properties&apos; to &apos;log4j.properties_old&apos;" description="Rename resource &apos;log4j.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/log4j.properties" name="log4j.properties_old" stamp="1437072776406" updateReferences="true"/>
-</session>
