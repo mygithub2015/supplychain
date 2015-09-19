@@ -1,0 +1,9 @@
+127.0.0.1 - - [08/Aug/2015:22:49:28 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Aug/2015:22:49:29 +0530] "GET /struts2project/WEB-INF/classes/struts2.xml HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [08/Aug/2015:22:49:44 +0530] "GET /struts2project/ HTTP/1.1" 200 1224
+0:0:0:0:0:0:0:1 - - [08/Aug/2015:22:50:28 +0530] "POST /struts2project/login.do;jsessionid=F3624C9D016B0643E1ACA567C7935E6E HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [08/Aug/2015:23:03:55 +0530] "GET /struts2project/index.jsp HTTP/1.1" 200 1224
+0:0:0:0:0:0:0:1 - - [08/Aug/2015:23:03:59 +0530] "POST /struts2project/login.do;jsessionid=48876219CB8FFE3AFB0C5B3A1F7EEE7A HTTP/1.1" 404 1085
+127.0.0.1 - - [08/Aug/2015:23:42:47 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Aug/2015:23:42:49 +0530] "GET /struts2project/index.jsp HTTP/1.1" 200 1224
+0:0:0:0:0:0:0:1 - - [08/Aug/2015:23:42:54 +0530] "POST /struts2project/login.do;jsessionid=41E0949992DA4EF34D2779AE833E8788 HTTP/1.1" 404 1085

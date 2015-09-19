@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" extends="struts-default">
+		<global-results>
+			<result name="myresult">error.jsp</result>
+		</global-results>
+
+		<global-exception-mappings>
+			<exception-mapping result="myresult" exception="java.lang.Exception"></exception-mapping>
+		</global-exception-mappings>
+		<action name="promotion" class="com.invoicematching.beans.Promotion">
+			<result name="success">welcome.jsp</result>
+			<result name="error">configure.jsp</result>
+			<result name="input">/configure.jsp</result>
+		</action>
+		<action name="fetchItemDetails" class="com.invoicematching.beans.FetchItemDetails">
+			<!-- <interceptor-ref name="param"></interceptor-ref> <interceptor-ref 
+				name="modelDriven"/> -->
+
+			<!-- <result name="success">/welcome.jsp</result> -->
+			<result name="success">/ItemDetails.jsp</result>
+			<result name="error">/ItemDetails.jsp</result>
+			<result name="input">/ItemDetails.jsp</result>
+		</action>
+		<action name="updateItemsAction" class="com.invoicematching.beans.UpdateItemsAction">
+			<result name="success">/ItemDetails.jsp</result>
+		</action>
+		<action name="searchAction" class="com.invoicematching.beans.SearchAction">
+<!-- 			<result name="success">/ItemSearch.jsp</result>
+ -->			<result name="success">/ItemDetails.jsp</result>
+		</action>
+
+	</package>
+</struts>      

@@ -1,0 +1,23 @@
+package com.invoicematching.dao;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class Dao {
+	private SessionFactory sf;
+	private SessionFactory getSessionFactory(String resource){
+		sf = new Configuration().configure(resource).buildSessionFactory();
+		return sf;
+		
+	}
+	public void Save(Object obj){
+		getSessionFactory("hiberate.cfg.xml");
+		Session session = sf.openSession();
+		Transaction trans = session.beginTransaction();
+		session.save(obj);		
+		
+	}
+
+}

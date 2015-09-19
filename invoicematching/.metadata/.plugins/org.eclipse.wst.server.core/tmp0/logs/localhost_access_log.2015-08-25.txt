@@ -1,0 +1,5 @@
+127.0.0.1 - - [25/Aug/2015:23:52:48 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [25/Aug/2015:23:52:55 +0530] "GET /invoicematching/Test.jsp HTTP/1.1" 200 1001
+0:0:0:0:0:0:0:1 - - [25/Aug/2015:23:53:13 +0530] "POST /invoicematching/FetchItemDetails;jsessionid=CFCDA4F69C2B9D7228DB5F57C3A7D3B3 HTTP/1.1" 404 1099
+127.0.0.1 - - [25/Aug/2015:23:58:02 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [25/Aug/2015:23:58:08 +0530] "POST /invoicematching/FetchItemDetails;jsessionid=CFCDA4F69C2B9D7228DB5F57C3A7D3B3 HTTP/1.1" 500 6331

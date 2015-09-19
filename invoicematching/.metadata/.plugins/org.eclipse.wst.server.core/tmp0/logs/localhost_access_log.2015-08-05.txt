@@ -1,0 +1,12 @@
+127.0.0.1 - - [05/Aug/2015:00:52:44 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Aug/2015:00:52:45 +0530] "GET /struts2project/login.jsp HTTP/1.1" 404 999
+127.0.0.1 - - [05/Aug/2015:00:57:34 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Aug/2015:00:57:38 +0530] "GET /struts2project/login.jsp HTTP/1.1" 200 585
+0:0:0:0:0:0:0:1 - - [05/Aug/2015:00:57:59 +0530] "GET /struts2project/login.do?uname=&pwd= HTTP/1.1" 404 997
+0:0:0:0:0:0:0:1 - - [05/Aug/2015:01:04:18 +0530] "GET /struts2project/login.do?uname=&pwd= HTTP/1.1" 404 997
+127.0.0.1 - - [05/Aug/2015:01:04:46 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Aug/2015:01:04:50 +0530] "GET /struts2project/login.jsp HTTP/1.1" 200 1224
+0:0:0:0:0:0:0:1 - - [05/Aug/2015:01:04:58 +0530] "POST /struts2project/login.do;jsessionid=C1B7E2B3E189FCC1F1BD1825F6AD6B85 HTTP/1.1" 404 1085
+127.0.0.1 - - [05/Aug/2015:01:09:54 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Aug/2015:01:09:58 +0530] "GET /struts2project/ HTTP/1.1" 200 1224
+0:0:0:0:0:0:0:1 - - [05/Aug/2015:01:10:02 +0530] "POST /struts2project/login.do;jsessionid=924995AFD9E64466F09A010ECF101DB1 HTTP/1.1" 404 1085

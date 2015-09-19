@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+F:\java practice\invoicematching\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\861679252.index
+\invoicematching\src
+F:\java practice\invoicematching\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2309802941.index
+\invoicematching\src

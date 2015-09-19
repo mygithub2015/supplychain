@@ -1,0 +1,7 @@
+127.0.0.1 - - [16/Aug/2015:01:17:48 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Aug/2015:01:18:22 +0530] "POST /invoicematching/Invoice.action;jsessionid=D80FEE4492B6E25EB53C3027C12777B3 HTTP/1.1" 200 319
+127.0.0.1 - - [16/Aug/2015:18:21:35 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Aug/2015:18:21:39 +0530] "GET /invoicematching/index.jsp HTTP/1.1" 200 2301
+0:0:0:0:0:0:0:1 - - [16/Aug/2015:18:21:53 +0530] "GET /invoicematching/index.jsp HTTP/1.1" 200 2301
+0:0:0:0:0:0:0:1 - - [16/Aug/2015:18:21:53 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [16/Aug/2015:18:22:37 +0530] "POST /invoicematching/Invoice.action;jsessionid=9E8A2214B528049B48EA7BB1D32719D7 HTTP/1.1" 200 319

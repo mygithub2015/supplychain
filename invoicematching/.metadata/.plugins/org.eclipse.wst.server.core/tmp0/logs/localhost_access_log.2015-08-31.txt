@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:00:01:30 +0530] "POST /invoicematching/fetchItemDetails.action HTTP/1.1" 500 6250
+127.0.0.1 - - [31/Aug/2015:00:02:13 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:00:02:30 +0530] "POST /invoicematching/fetchItemDetails.action;jsessionid=F47422C16F1005B1E7FECC7F7D31BF91 HTTP/1.1" 200 2448
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:00:02:38 +0530] "POST /invoicematching/fetchItemDetails.action HTTP/1.1" 500 6250
+127.0.0.1 - - [31/Aug/2015:00:29:36 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [31/Aug/2015:00:32:18 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:00:32:34 +0530] "GET /invoicematching/ItemDetails.jsp HTTP/1.1" 200 822
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:00:32:58 +0530] "POST /invoicematching/fetchItemDetails.action;jsessionid=36157145B310ED9802D12B557FA1FF51 HTTP/1.1" 200 2448
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:00:33:28 +0530] "POST /invoicematching/updateItemsAction.action HTTP/1.1" 200 2447
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:00:33:58 +0530] "POST /invoicematching/fetchItemDetails.action HTTP/1.1" 200 779
+127.0.0.1 - - [31/Aug/2015:00:35:52 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:00:36:12 +0530] "POST /invoicematching/fetchItemDetails.action;jsessionid=36157145B310ED9802D12B557FA1FF51 HTTP/1.1" 200 779
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:00:42:07 +0530] "POST /invoicematching/fetchItemDetails.action HTTP/1.1" 200 2448
+127.0.0.1 - - [31/Aug/2015:23:53:51 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [31/Aug/2015:23:53:59 +0530] "GET /invoicematching/ItemDetails.jsp HTTP/1.1" 500 2748
