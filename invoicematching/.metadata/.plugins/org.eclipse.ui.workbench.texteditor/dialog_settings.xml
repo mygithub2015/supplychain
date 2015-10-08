@@ -13,16 +13,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wholeword"/>
-		<item value="AjaxAction" key="selection"/>
+		<item value="org/apache/tiles/web/startup/TilesListener" key="selection"/>
 		<list key="findhistory">
+			<item value="tiles.xml"/>
+			<item value="img"/>
 			<item value="SearchAction"/>
 			<item value="fetchitem"/>
 			<item value="fetch"/>
 			<item value="SearchAction:entering execute method started"/>
 			<item value="logger.info(&quot;SearchAction:entering execute method started...&quot;);"/>
 			<item value="TRAP_LOG"/>
-			<item value="logger"/>
-			<item value="FILE"/>
 		</list>
 		<list key="replacehistory">
 			<item value="AjaxAction"/>
